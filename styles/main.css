@@ -363,45 +363,84 @@ main #main_container #guides .guides_wrap > .contents .guides_deco .arrow img {w
     100% {transform: rotate(-360deg);}
 }
 /* notice =========================================================*/
-main #main_container #notice {background-color:#F5F5F5;}
+main #main_container #notice {background-color:#fff;margin-top:200px;}
 main #main_container #notice .notice_wrap {
-    width: 1920px;
-    /* height: 1000px; */
     margin:0 auto;
     display: flex;
 }
 main #main_container #notice .notice_wrap .recruit {
     width: calc(1920px / 2);
-    background-color: wheat;
+    /* background-color: wheat; */
+    background: url(../images/recruit_background.png);
+    margin:0 auto;
 }
-main #main_container #notice .notice_wrap .recruit h2 {}
-main #main_container #notice .notice_wrap .recruit p {}
+main #main_container #notice .notice_wrap .recruit h2 {font-size: 3.75rem; font-weight: 600; margin:155px 0 20px 155px;}
+main #main_container #notice .notice_wrap .recruit p {line-height: 1.5;margin: 0 0 287px 155px}
 main #main_container #notice .notice_wrap .recruit .recruit_info {
     display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
 }
 main #main_container #notice .notice_wrap .recruit .recruit_info li {
     width: 150px;
     height: 200px;
     background-color: #fff;
+    margin:10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.2);
 }
-main #main_container #notice .notice_wrap .recruit .recruit_info li a {}
+main #main_container #notice .notice_wrap .recruit .recruit_info li:nth-child(2) a span {opacity: 0.6;}
+main #main_container #notice .notice_wrap .recruit .recruit_info li:nth-child(3) a span {opacity: 0.6;}
+main #main_container #notice .notice_wrap .recruit .recruit_info li a {
+    margin-top:46.5px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
 main #main_container #notice .notice_wrap .recruit .recruit_info li a span {
     width: 50px; height: 50px;
-    display: inline-block;
 }
 main #main_container #notice .notice_wrap .recruit .recruit_info li a span img {width: 100%;}
+main #main_container #notice .notice_wrap .recruit .recruit_info li a em {margin-top:30px;}
 main #main_container #notice .notice_wrap .notice {
     width: calc(1920px / 2);
-    background-color:lightblue;
+    /* background-color:lightblue; */
 }
-main #main_container #notice .notice_wrap .notice h2 {}
-main #main_container #notice .notice_wrap .notice p {}
-main #main_container #notice .notice_wrap .notice .notice_info {}
-main #main_container #notice .notice_wrap .notice .notice_info li {}
-main #main_container #notice .notice_wrap .notice .notice_info li a {}
+main #main_container #notice .notice_wrap .notice h2 {font-size: 3.75rem; font-weight: 600; margin:155px 0 20px 100px;}
+main #main_container #notice .notice_wrap .notice > p {line-height: 1.5;margin: 0 0 50px 100px}
+main #main_container #notice .notice_wrap .notice > p::after {
+    content:'';
+    display: inline-block;
+    width: 760px; height: 2px;
+    background-color: #222;
+    margin-top:40px;
+}
+main #main_container #notice .notice_wrap .notice .notice_info {margin:100px 0 0 100px;}
+main #main_container #notice .notice_wrap .notice .notice_info li {
+    border-bottom: 2px solid #eee;
+    width: 760px;
+    padding:20px 150px 40px 0;
+    margin-top:40px;
+    /* background-color: yellow; */
+}
+main #main_container #notice .notice_wrap .notice .notice_info li a {
+    display: flex;
+    flex-flow: row nowrap;
+    gap:80px;
+    text-align: center;
+    align-items: center;
+}
 main #main_container #notice .notice_wrap .notice .notice_info li a .date {}
-main #main_container #notice .notice_wrap .notice .notice_info li a .date p:first-child {}
+main #main_container #notice .notice_wrap .notice .notice_info li a .date p:first-child {
+    color:#003889;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
 main #main_container #notice .notice_wrap .notice .notice_info li a .date p:last-child {}
-main #main_container #notice .notice_wrap .notice .notice_info li a .news {}
-main #main_container #notice .notice_wrap .notice .notice_info li a .news h3 {}
+main #main_container #notice .notice_wrap .notice .notice_info li a .news {
+    text-align: left;
+}
+main #main_container #notice .notice_wrap .notice .notice_info li a .news h3 {
+    font-size: 1.125rem; font-weight: 600;
+    margin-bottom: 10px;
+}
 main #main_container #notice .notice_wrap .notice .notice_info li a .news p {}
