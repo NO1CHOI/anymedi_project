@@ -21,7 +21,7 @@ body {
 header {
     background-color:#fff;
     box-shadow: 0 5px 5px -5px #888; ;
-    width: 100%;
+    min-width:1920px;
 }
 header .header_wrap {
     max-width:1920px;
@@ -48,7 +48,7 @@ header .header_wrap nav .gnb {
 header nav .gnb li {padding:40px 0;}
 header nav .gnb li a {}
 header nav .lnb_bg {
-    width: 100%;
+    min-width: 1920px;
     background-color: rgba(0,0,0,0.8);
     position:absolute;top:97px;left:0;
     z-index: 999;
