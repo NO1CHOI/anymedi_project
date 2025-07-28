@@ -13,7 +13,10 @@ color : #003889,#392A5B,#222,#333333,
 */
 
 /* * {outline: 1px solid rgba(255, 0, 0, 0.2);} */
-body main {width: 100%; margin:0 auto;}
+body main {
+    min-width:1920px;
+    margin:0 auto;
+}
 main {}
 main #main_container {}
 /* main_bnr ==========================================================*/

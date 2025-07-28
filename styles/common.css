@@ -13,7 +13,10 @@ color : #003889,#392A5B,#222,#333333,#F5F5F5
 */
 
 
-body {}
+body {    
+    min-width:1920px;
+    margin:0 auto;
+}
 /* header-------------------------------------------- */
 header {
     background-color:#fff;
