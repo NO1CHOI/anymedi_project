@@ -15,6 +15,7 @@ color : #003889,#392A5B,#222,#333333,#F5F5F5
 
 body {    
     min-width:1920px;
+    overflow-x: hidden;
     margin:0 auto;
 }
 /* header-------------------------------------------- */
